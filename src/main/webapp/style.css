@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Heebo:wght@800&display=swap');
 *{
-    margin: 250;
+    margin: 100;
     padding: 100;
 }
 body{
     background: url(bg.jpg) no-repeat center center fixed;
-    background-size: cover;
+     background-color: hsl(89, 43%, 51%);
+    margin: 250px;
+
 }
 .container{
     color: white;
