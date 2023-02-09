@@ -1,167 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Heebo:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    margin: 0px;
-    text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;
-
- 
-    }
-    .p{
-        margin: auto;
-        color: #40514E;
-    }
-    .pp{
-        color: #66BFBF;
-        margin: 10px 50px 10px 50px;
-    }
-    .pt{
-        margin-bottom: 3%;
-    }
-    
-    hr{
-        margin: 100px auto 100px auto;
-        width: 5%;
-        border-style: none;
-        border-bottom-style: dotted;
-        border-width: 5px;
-        border-color: grey;
-    }
-        
-        
-    
-    h1{
-        font-family: 'Sacramento', cursive;
-        margin-top: 0px;
-        font-size: 49px;
-        color: #66BFBF;
-        
-       
-    }
-    h2{
-        font-family: 'Montserrat', sans-serif;
-        color: #66BFBF;
-
-
-    }
-    h3{
-        font-family: 'Montserrat', sans-serif;
-        color:  #11999E;
-
-    }
-.topcontainer{
-
-    background-color: hsl(169, 64%, 94%);
-    position: relative;
-    padding-top: 100px;
-    
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
-.footer-link{
-    color: #11999E ;
-    margin: 20px;
-}
-.owner{
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: 20px 0;
-}
-
-.middlecontainer{
-    
- margin: 100px 0;
- margin-bottom: 0px;
-    
-
-}
-.bottomcontainer{
-   align-items: center;
-   margin-top: 5%;
-   padding: 40px;
-   padding-bottom: 10px;
-   background-color: #66BFBF;
-   
- 
-    
-}
-
-.footer-link{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-}
-.footer-link:hover{
-    color: #EAF6F6;
-}
-.top-cloud{
+.container{
+    color: white;
     position: absolute;
-    right: 300px;
-    top: 50px;
-   }
-.bottom-cloud{
-
-position: absolute;
-left: 300px;
-bottom: 300px;
+    top: 25%;
+    left: 50%;
 }
-.skill-row
-{
- width: 50%;
- margin: 100px auto 100px auto;
- text-align: left;
- line-height: 2;
+.container h1{
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
 }
-.pt{
-    width: 33%;
-    margin: 30px auto 35px auto;
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0;
 }
-.desk{
-
-    width: 25%;
-    height: 10%;
-    float: left;
-    margin-right: 30px;
-}
-
-.tech{
-    width: 25%;
-    height: 10%;
-    float: right;
-    margin-left: 30px;
-
-}
-.frame{
-    width: 20%;
-    height: 10%;
-    float: right;
-  
-  
-}
-.btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+.box input{
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
     font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    
-  }
-  
-  .btn:hover {
-    background:  #30e3cb;
-    background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
-    text-decoration: none;
-    
-  }
-  .ppp{
-    width: 13%;
-    height: 13%;
-  }
+    border: none;
+    outline: none;
+    color: white;
+}
+.box i{
+    width: 7%;
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    color: purple;
+    background: white;
+    opacity: 0.5;
+}
